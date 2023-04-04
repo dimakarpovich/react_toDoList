@@ -1,1 +1,54 @@
 @import "reset";
+* {
+  font-family: 'Roboto Slab', serif;
+}
+#app {
+  min-height: 100vh;
+  background-color: #312f2fe8;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 80%;
+  text-align: center;
+  border: 2px solid #d3c6c6;
+  border-radius: 5px;
+  padding: 20px;
+}
+h1 {
+  color: #fbfbfb;
+}
+.list {
+  text-align: left;
+  font-size: 20px;
+}
+.list__item {
+  position: relative;
+  padding: 10px 0;
+  color: #fbfbfb;
+  border-bottom: 1px solid #bdb4b4;
+  &_active {
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px solid #bdb4b4;
+    color: #8b2525da;
+    text-decoration: line-through;
+  }
+}
+.delete {
+  position: absolute;
+  right: 0px;
+  border: none;
+  background-color:#424242e8;
+  color: #b70e0eda;
+}
+
+.check {
+  margin-right: 20px;
+}
+span {
+  color: #fbfbfb;
+  margin-right: 20px;
+  font-weight: bold;
+}
