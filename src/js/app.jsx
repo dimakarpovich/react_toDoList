@@ -1,6 +1,6 @@
-import React , {useState} from 'react';
+import React  from 'react';
 import { createRoot } from 'react-dom/client';
-import ToDoList from './ToDoList';
+import ToDoList from "./ToDoList";
 
 
 const root = createRoot(document.getElementById('app'));

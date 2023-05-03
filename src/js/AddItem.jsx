@@ -8,13 +8,14 @@ export default function AddItem({ handleCreate }) {
       return;
     }
 
-    const toDo = { text, id: Date.now() };
+    const toDo = { text, id: Date.now(), date: new Date().toLocaleDateString()};
     handleCreate(toDo);
+    console.log(toDo);
     setText('');
   }
   return (
 
-    <div class="input-group mb-3">
+    <div className="input-group mb-3">
        <input className="form-control" value={text} onChange={(e) => setText(e.target.value)}  placeholder="Add task" />
         <button className="btn btn-primary" onClick={handleClick}>Add</button>
     </div>
