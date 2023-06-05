@@ -1,0 +1,103 @@
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+body, h1, h2, h3, h4, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizespeed;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+* {
+  background: #1c1b1bfe;
+  font-family: Roboto Slab, serif;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 80%;
+  text-align: center;
+  border: 2px solid #d3c6c6;
+  border-radius: 5px;
+  margin: 20px auto 0;
+  padding: 20px;
+  box-shadow: 0 -15px 10px #ac050581;
+}
+
+h1 {
+  color: #fbfbfb;
+}
+
+.list {
+  text-align: left;
+  font-size: 20px;
+}
+
+.list__item {
+  color: #fbfbfb;
+  border-bottom: 1px solid #bdb4b4;
+  padding: 10px 0;
+  position: relative;
+}
+
+.list__item_active {
+  color: #8b2525da;
+  border-bottom: 1px solid #bdb4b4;
+  padding: 10px 0;
+  text-decoration: line-through;
+  position: relative;
+}
+
+.delete {
+  color: #b70e0eda;
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.check {
+  margin-right: 20px;
+}
+
+.id {
+  color: #fbfbfb;
+  margin-right: 20px;
+}
+
+.date {
+  color: #fbfbfb;
+  position: absolute;
+  right: 100px;
+}
+
+/*# sourceMappingURL=index.b10d73a7.css.map */

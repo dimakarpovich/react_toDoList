@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "npx eslint src/js/**",
     "start": "parcel",
-    "prod": "parcel build"
+    "prod": "parcel build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -29,11 +30,12 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
     "process": "^0.11.10"
   },
   "bugs": {
     "url": "https://github.com/radio-mouse/frontend/issues"
   },
-  "homepage": "https://github.com/radio-mouse/frontend#readme",
+  "homepage": "https://dimakarpovich.gihub.io/",
   "main": ".eslintrc.js"
 }
